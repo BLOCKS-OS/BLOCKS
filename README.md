@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>BLOCKS</h1>
+  <h1>BLOCKS 💥 </h1>
   <i>Operating System developed by team Blocks.</i>
 </div>
 
