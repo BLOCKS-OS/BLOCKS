@@ -15,6 +15,7 @@
 
 #### Assembly
 
+- https://www.youtube.com/playlist?list=PLm3B56ql_akNcvH8vvJRYOc7TbYhRs19M
 - https://www.tutorialspoint.com/assembly_programming/assembly_quick_guide.htm
 #### Playlist
 
