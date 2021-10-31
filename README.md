@@ -26,6 +26,8 @@ There are several key advantages to such a project over a higher-level project t
 4. Branch-wise development helps students to pick any branch of the complete project and start implementing rest features or any particular feature by using the project as boiler-plate code and detailed documentation for reference. 
 
 
-## Work Distribution
+## How it looks :))
+
+<img src="./docs/img/welcome.png">
 
 > ### To be added here...

@@ -1,3 +1,5 @@
+/* boot.s - kernel entry point that sets up the processor environment */
+
 /* Declare constants for the multiboot header. */
 .set ALIGN,    1<<0             /* align loaded modules on page boundaries */
 .set MEMINFO,  1<<1             /* provide memory map */
