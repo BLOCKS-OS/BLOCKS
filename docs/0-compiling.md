@@ -14,14 +14,14 @@
 - i686-elf-g++ -c kernel.c++ -o kernel.o -ffreestanding -O2 -Wall -Wextra -fno-exceptions -fno-rtti
 
 **You can then link your kernel using:**
-- i686-elf-gcc -T linker.ld -o myos.bin -ffreestanding -O2 -nostdlib boot.o kernel.o -lgcc
+- i686-elf-gcc -T linker.ld -o blocks.bin -ffreestanding -O2 -nostdlib boot.o kernel.o -lgcc
 
 
 **Verifying Multiboot**
-- grub-file --is-x86-multiboot myos.bin
+- grub-file --is-x86-multiboot blocks.bin
 
 **Create a bootable image of your operating system**
-- grub-mkrescue -o myos.iso isodir
+- grub-mkrescue -o blocks.iso isodir
 
 **Command to start your new operating system**
-- qemu-system-i386 -kernel myos.bin
+- qemu-system-i386 -kernel blocks.bin
