@@ -2,6 +2,7 @@
   "files.associations": {
     "*.js": "javascriptreact",
     "tty.h": "c",
-    "stdbool.h": "c"
+    "stdbool.h": "c",
+    "vga.h": "c"
   }
 }
