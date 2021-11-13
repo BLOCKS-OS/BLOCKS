@@ -60,23 +60,31 @@ G++ (if building a version of GCC >= 4.8.0), or another system C++ compiler
 -     export TARGET=i686-elf
 -     export PATH="$PREFIX/bin:$PATH"
 
-- Installing Binutils for cross compiler
+- **Installing Binutils for cross compiler**
 -     mkdir /tmp/src
 -     cd /tmp/src
+   - Downloading the package
 -     curl -O http://ftp.gnu.org/gnu/binutils/binutils-2.35.1.tar.gz
+  - Extracting the package
 -     tar xf binutils-2.35.1.tar.gz
 -     mkdir binutils-build
 -     cd binutils-build
+  - Setting up the required configuration
 -     ../binutils-2.35.1/configure --target=$TARGET --enable-interwork --enable-multilib --disable-nls --disable-werror --prefix=$PREFIX 2>&1 | tee configure.log
+  - Make Install the package
 -     sudo make all install 2>&1 | tee make.log
 
-- Installing GCC for Cross-Compiler
+- **Installing GCC for Cross-Compiler**
 -     cd /tmp/src
+   - Downloading the package
 -     curl -O https://ftp.gnu.org/gnu/gcc/gcc-10.2.0/gcc-10.2.0.tar.gz
+  - Extracting the package
 -     tar xf gcc-10.2.0.tar.gz
 -     mkdir gcc-build
 -     cd gcc-build
+  - Setting up the required configuration
 -     ../gcc-10.2.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --disable-libssp --enable-languages=c++ --without-headers
+  - Make Install the package
 -     sudo make all-gcc
 -     sudo make all-target-libgcc
 -     sudo make install-gcc
