@@ -3,6 +3,11 @@
     "*.js": "javascriptreact",
     "tty.h": "c",
     "stdbool.h": "c",
-    "vga.h": "c"
+    "vga.h": "c",
+    "stdio.h": "c",
+    "string.h": "c",
+    "stdint.h": "c",
+    "cstdint": "c",
+    "stddef.h": "c"
   }
 }

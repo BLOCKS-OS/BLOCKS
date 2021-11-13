@@ -11,7 +11,26 @@ static bool print(const char* data, size_t length) {
 			return false;
 	return true;
 }
- 
+
+/*
+
+/// "
+
+* restrict" keywork passed in the function declaration below
+
+By adding this "restrict"type qualifier, a programmer hints to the compiler
+that for the lifetime of the pointer, only the pointer itself or a value
+directly derived from it (such as pointer + 1) will be used to access the
+object to which it points.
+
+* va_start(parameters, format);
+
+It's a macro which uses __builtin_va_start(v,l). It is a GNU built-in
+C90 function.
+
+*/
+
+
 int printf(const char* restrict format, ...) {
 	va_list parameters;
 	va_start(parameters, format);

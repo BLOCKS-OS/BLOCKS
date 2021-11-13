@@ -1,3 +1,6 @@
+
+; the ebp register on intel x86 architectures, rbp on 64-bit architectures
+
 .section .init
 .global _init
 .type _init, @function

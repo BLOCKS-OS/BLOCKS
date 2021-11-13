@@ -10,7 +10,7 @@
 - V Surya Kumar
 - Saransh
 - Anjali Singh
-- Saujanya
+- Soujanya
 - Pravir
 - Abhishek
 - Viplav
