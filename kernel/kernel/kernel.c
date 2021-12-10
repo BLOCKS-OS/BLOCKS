@@ -4,5 +4,5 @@
  
 void kernel_main(void) {
 	terminal_initialize();
-	printf("Hello, kernel World!\n");
+	printf("Hello, VIT Bhopal! Welcome to Blocks OS. Thanks for the Project Review 1.");
 }

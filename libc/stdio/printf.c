@@ -14,8 +14,6 @@ static bool print(const char* data, size_t length) {
 
 /*
 
-/// "
-
 * restrict" keywork passed in the function declaration below
 
 By adding this "restrict"type qualifier, a programmer hints to the compiler

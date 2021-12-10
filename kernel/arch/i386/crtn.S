@@ -1,4 +1,4 @@
-; the ebp register on intel x86 architectures, rbp on 64-bit architectures
+/* the ebp register on intel x86 architectures, rbp on 64-bit architectures */
 
 .section .init
 	/* gcc will nicely put the contents of crtend.o's .init section here. */
