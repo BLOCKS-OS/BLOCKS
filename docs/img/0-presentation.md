@@ -1,6 +1,5 @@
 # Presentation
 
-
 ## How it's helping community?
 
 - Detailed Documentation
