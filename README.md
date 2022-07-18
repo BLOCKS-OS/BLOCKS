@@ -17,7 +17,7 @@
 
 ## Introduction
 
-Blocks-OS is an open-source operating system made from scratch purely for educational purposes or to understand how an OS works. An end-user can work on the project to gain a deeper understanding of the computer itself, experiencing first-hand how such concepts as segmentation, interrupt-vectors, and memory management actually manifest themselves in their own computers.
+Blocks-OS is an open-source operating system made from scratch purely for educational purposes or to understand how an OS works. An end-user can work on the project to gain a deeper understanding of the computer itself, experiencing first-hand how such concepts actually manifest themselves in their own computers.
 
 There are several key advantages to such a project over a higher-level project that isolates students from the machine:
 1. Students gain a deeper understanding of the computer itself, experiencing first-hand how such concepts as segmentation, interrupt-vectors, and memory management actually manifest themselves in their own computers.
